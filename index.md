@@ -72,7 +72,7 @@ With this new file obtained, I am now finished with creating and encrypting my m
 
 After some time has passed, my professor responded with his own email. He has indicated that my message had been successfully received and decrypted and provided me with an encrypted message of his own using my public key. His message, however, follows a different file format. Instead of having the .asc file extension, his has a .gpg extension which signifies that this is a file that was created using GnuPG (FileInfo). Moreover, this file is classified as an OpenPGP binary file rather than a text file. Even so, the file appears to behave similarly to the .asc file I created in that it will still open Kleopatra and GnuPG when activated. Therefore, within the scope of this lab, I regard any differences in terms of the nature of these files to be negligible. That being said, I open the file as per usual and run GnuPG to decrypt it. This lab report requires an appendix so you will find the decrypted message there. With my professor’s message restored to its original form, the lab is now concluded.
 
--<i>Figure 7</i>: Provided below is the message my professor sent to me after decryption:
+- <i>Figure 7</i>: Provided below is the message my professor sent to me after decryption:
 
 <p align="center">
   <img width="585" height="267" src="assets/fig7.png">
