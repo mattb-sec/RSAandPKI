@@ -103,7 +103,7 @@ With all things considered, I do believe that public key infrastructure has a pl
 
 # References
 
-- (n.d.). Retrieved from (https://docs.oracle.com/cd/E19424-01/820-4811/aakfw/index.html)
+- (n.d.). <a href="https://docs.oracle.com/cd/E19424-01/820-4811/aakfw/index.html" target="_blank">Oracle Documentation</a>
 
 - .GPG File Extension. (2016, October 04). Retrieved from https://fileinfo.com/extension/gpg
 
