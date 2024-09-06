@@ -1,8 +1,6 @@
 
 # Demonstrating RSA Encryption with GnuPG and Kleopatra
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
 ## Introduction
 
 This first part of the paper is dedicated to explaining and analyzing the steps that were taken for this lab. The objective here is to introduce the basic methods used for encrypting messages and files. In this case, we will focus only on RSA encryption and how it is able to encrypt and decrypt simple text files. I will be using an open-source software known as Gpg4win and its certificate managing tool Kleopatra to carry out this process. I will begin by first explaining the installation and setup of Gpg4win and then go into detail about creating the OpenPGP key pair I will be using. From there, I will describe the processes of encryption and decryption and finally conclude with some final reflections.
