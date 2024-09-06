@@ -54,7 +54,9 @@ With my message created, I save it in a simple text file and return to Kleopatra
 
 - <i>Figure 5</i>: The dialogue window of Kleopatra for encrypting files using GnuPG. I have disabled signing my message and that it will be encrypted only with my professor’s public key. Additionally, notice that his key pair appears in the “certificates” section in the background and is certified by me. Not pictured is the “create signed or encrypted files as text files” option being enabled.
 
-![Figure5](/assets/fig5.png)
+<p align="center">
+  <img width="626" height="377" src="assets/fig5.png">
+</p>
 
 Now this is where GnuPG comes into play. There is a specific way I am meant to encrypt my message. That is, I am to remove any ownership of the message. This means once the message has been encrypted, it will become unintelligible even to me, the original writer. Moreover, the directions require the output to be text only or, as previous iterations of the software have referred to it, with ASCII armor (Mutz). This is where I had to deviate from the directions a bit because, as I had discovered, this feature had been removed in my version. It had instead been translated into the configuration menu where it was now an option to “create signed or encrypted files as text files.” With this option enabled, the encryption process is performed, and I am left with the encrypted file.
 
