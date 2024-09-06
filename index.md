@@ -15,8 +15,9 @@ Before I can start any work with encryption, I must first set up my workspace. T
 
 ## Creating the Public and Private Key Pair and Exchanging Public Keys
 
-	Upon running the Gpg4win executable file, the GUI for Kleopatra is opened. As mentioned, this is the certificate manager, and I will be using it for creating and importing key pairs for encryption and decryption. The first step, however, is to create the keys. Rather than having to deal with complex algorithms, Kleopatra has a more simplified process in that it uses a Creation Wizard to automatically generate a key pair given only a few key pieces of information. The user needs only to provide his or her name, an email address, and, if they wish, specifications on the form of encryption and for what purpose(s) it will be used. The figure below shows the creation process for my own key pair:
+Upon running the Gpg4win executable file, the GUI for Kleopatra is opened. As mentioned, this is the certificate manager, and I will be using it for creating and importing key pairs for encryption and decryption. The first step, however, is to create the keys. Rather than having to deal with complex algorithms, Kleopatra has a more simplified process in that it uses a Creation Wizard to automatically generate a key pair given only a few key pieces of information. The user needs only to provide his or her name, an email address, and, if they wish, specifications on the form of encryption and for what purpose(s) it will be used. The figure below shows the creation process for my own key pair:
 
+### Java Shit
 ```js
 // Javascript code with syntax highlighting.
 var fun = function lang(l) {
