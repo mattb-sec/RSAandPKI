@@ -28,11 +28,9 @@ Notice that for this lab, I will be using 2048-bit RSA encryption. This bit valu
 
 - <i>Figure 2</i>: A pop-up window signifying that the key pair was successfully created. The fingerprint provided is so that users can verify that the key pair belongs to me and validate my certificate.
 
-<div align ="center">
-
-![Figure2](/assets/fig2.png)
-
-</div>
+<p align="center">
+  <img width="518" height="259" src="assets/fig2.png">
+</p>
 
 - <i>Figure 3</i>: The Kleopatra GUI with the “certificates” section active. The key pair I have created is visible in the box and is certified. This means my public and private keys are active and I can now encrypt and decrypt emails and files.
 
