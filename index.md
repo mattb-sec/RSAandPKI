@@ -11,7 +11,7 @@ This first part of the paper is dedicated to explaining and analyzing the steps 
 
 Before I can start any work with encryption, I must first set up my workspace. The only things I need are my email, a text editor (in this case, Notepad), and a software known as Gpg4win. To be specific, I will be using Gpg4win version 3.1.15. According to the “about” page on its website, Gpg4win is an open-source software that enables users to securely transport emails and files with the help of encryption and digital signatures (Gpg4win). As the name suggests, this software’s focus is to implement GNU Privacy Guard and its features into Windows. This will be the primary tool for the lab as it will be handling all of the encoding and decoding. Although Gpg4win is referred to as a singular unit, it is actually made up of several smaller components: GnuPG the encryption tool, Kleopatra the certificate manager, GpgOL and GpgEX for additional email and file encryption, and GPA, another certificate manager. For this lab, I will only be using Kleopatra and GnuPG for key creation, certification management, and message encryption (and for the sake of precision, I will be referring to these programs separately).
 
- Once the software has been installed, I am now ready to begin the first steps of encryption. The directions for this lab specify that I will be working with RSA encryption. To provide a brief overview, RSA encryption is a type of asymmetric encryption in which a message is encrypted with a public key anyone can use and decrypted with a private key that the intended recipient possesses (Lake). The process of RSA is as follows: First, a public and private key pair is generated. The most common method of generating this key pair is through equations that deal with extremely large prime numbers. The idea here is that the end result is easy to see but to figure out the individual parts would be nearly impossible. After the keys have been created, the next step is to use the public key to encrypt the message. Once the message has been encrypted, it is now scrambled based on the key’s algorithms and is indecipherable. From there, the message can now travel through the network to its intended recipient who then decrypts it with his or her own private key. The process concludes with the message being restored to its original form. The perk of RSA encryption is that the message’s contents are totally hidden when it is encrypted. Even if an intruder were to intercept it, the message would be unusable to him or her without the proper private key. This lab will demonstrate this process thusly except that it will be in a more simplified form.
+Once the software has been installed, I am now ready to begin the first steps of encryption. The directions for this lab specify that I will be working with RSA encryption. To provide a brief overview, RSA encryption is a type of asymmetric encryption in which a message is encrypted with a public key anyone can use and decrypted with a private key that the intended recipient possesses (Lake). The process of RSA is as follows: First, a public and private key pair is generated. The most common method of generating this key pair is through equations that deal with extremely large prime numbers. The idea here is that the end result is easy to see but to figure out the individual parts would be nearly impossible. After the keys have been created, the next step is to use the public key to encrypt the message. Once the message has been encrypted, it is now scrambled based on the key’s algorithms and is indecipherable. From there, the message can now travel through the network to its intended recipient who then decrypts it with his or her own private key. The process concludes with the message being restored to its original form. The perk of RSA encryption is that the message’s contents are totally hidden when it is encrypted. Even if an intruder were to intercept it, the message would be unusable to him or her without the proper private key. This lab will demonstrate this process thusly except that it will be in a more simplified form.
 
 ## Creating the Public and Private Key Pair and Exchanging Public Keys
 
@@ -27,13 +27,29 @@ Upon running the Gpg4win executable file, the GUI for Kleopatra is opened. As me
 
 Notice that for this lab, I will be using 2048-bit RSA encryption. This bit value refers to the lengths of the key pair which, in turn, refers to the size of the SSL, or Secure Socket Layer, certificate (Gloag). In other words, this number indicates the strength of the key: The longer the key, the stronger the encryption will be and the more difficult the message or file will be to crack (Oracle). In this regard, a 2048-bit key length is a formidable security measure because this signifies that the products of the prime numbers with which the algorithm will be working are up to 617 digits long (Lake). It is no wonder, then, that 2048-bit RSA encryption is considered by most to be the industry standard in terms of encryption strength and is the most frequently recommended (Giry). However, as an aside, it is superficial to apply the blanket statement “the bigger, the better” when it comes to key length because once a key is fully able to withstand a brute force attack, any additional bits only needlessly complicate matters and would be considered a waste of resources. Nevertheless, with my parameters set, my key pair is successfully created. The figures below show the creation of the key pair and implementation of the new certificate. 
 
-<i>Figure 2</i>: A pop-up window signifying that the key pair was successfully created. The fingerprint provided is so that users can verify that the key pair belongs to me and validate my certificate.
+- <i>Figure 2</i>: A pop-up window signifying that the key pair was successfully created. The fingerprint provided is so that users can verify that the key pair belongs to me and validate my certificate.
 
 <div align ="center">
 
 ![Figure2](/assets/fig2.png)
 
 </div>
+
+- <i>Figure 3</i>: The Kleopatra GUI with the “certificates” section active. The key pair I have created is visible in the box and is certified. This means my public and private keys are active and I can now encrypt and decrypt emails and files.
+
+<div align ="center">
+
+![Figure3](/assets/fig3.png)
+
+</div>
+
+Now here is where the lab really gets interesting. To demonstrate its concepts, I will be sending an encrypted message to my professor. In order to do so, however, we must first exchange public keys. I sent my newly created public key in an email to him and downloaded his public key to my computer and imported it into Kleopatra. When this was done, I also had to certify my professor’s key to prove that he is the owner and verify the certificate’s fingerprint (Mutz). In turn, I can only assume that he has done the same for my public key. With the keys successfully exchanged, I am now ready to create a message for encryption.
+
+## Creating, Sending, and Receiving Encrypted Messages
+
+Now for the actual creation of the message I wish to encrypt. I must admit that there is nothing too fancy going on in this step. I merely opened my basic version of Notepad and wrote a little message without much thought as shown below:
+
+- <i>Figure 4</i>: My original text message as seen in Notepad. Aside from its contents, the only thing to bear in mind here is that I have stuck with using alphabetical characters with only a few special characters for punctuation.
 
 ### Java Shit
 ```js
