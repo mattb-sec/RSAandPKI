@@ -19,10 +19,8 @@ Upon running the Gpg4win executable file, the GUI for Kleopatra is opened. As me
 
 - <i>Figure 1</i>: Here we see the GUI for Kleopatra along with the basic and advanced dialogue windows for creating a new key pair. My name and email are filled out in the first window and the advanced window is filled out according to the lab instructions. This key pair will only be used for encryption (it will not sign or authenticate) and is valid until June 6, 2021.
 
-<div align ="center">
-
-![Figure1](/assets/fig1.png)
-
+<div style="text-align: center;">
+  <img src="/assets/fig1.png" alt="Figure 1" style="width:300px;">
 </div>
 
 Notice that for this lab, I will be using 2048-bit RSA encryption. This bit value refers to the lengths of the key pair which, in turn, refers to the size of the SSL, or Secure Socket Layer, certificate (Gloag). In other words, this number indicates the strength of the key: The longer the key, the stronger the encryption will be and the more difficult the message or file will be to crack (Oracle). In this regard, a 2048-bit key length is a formidable security measure because this signifies that the products of the prime numbers with which the algorithm will be working are up to 617 digits long (Lake). It is no wonder, then, that 2048-bit RSA encryption is considered by most to be the industry standard in terms of encryption strength and is the most frequently recommended (Giry). However, as an aside, it is superficial to apply the blanket statement “the bigger, the better” when it comes to key length because once a key is fully able to withstand a brute force attack, any additional bits only needlessly complicate matters and would be considered a waste of resources. Nevertheless, with my parameters set, my key pair is successfully created. The figures below show the creation of the key pair and implementation of the new certificate. 
