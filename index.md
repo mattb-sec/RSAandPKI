@@ -51,7 +51,7 @@ Now for the actual creation of the message I wish to encrypt. I must admit that 
 
 - <i>Figure 4</i>: My original text message as seen in Notepad. Aside from its contents, the only thing to bear in mind here is that I have stuck with using alphabetical characters with only a few special characters for punctuation.
 
-                                              ![Figure4](/assets/fig4.png)
+![Figure4](/assets/fig4.png)
 
 ### Java Shit
 ```js
