@@ -105,26 +105,27 @@ With all things considered, I do believe that public key infrastructure has a pl
 
 - (n.d.). <a href="https://docs.oracle.com/cd/E19424-01/820-4811/aakfw/index.html" target="_blank">Oracle Documentation</a>
 
-- .GPG File Extension. (2016, October 04). Retrieved from https://fileinfo.com/extension/gpg
+- <a href="https://fileinfo.com/extension/gpg" target="_blank">.GPG File Extension. (2016, October 04). Retrieved from fileinfo.com</a><br>
 
-- .PGP File Extension. (2009, May 13). Retrieved from https://fileinfo.com/extension/pgp
+- <a href="https://fileinfo.com/extension/pgp" target="_blank">.PGP File Extension. (2009, May 13). Retrieved from fileinfo.com</a><br>
 
-- About Gpg4win. (n.d.). Retrieved from https://www.gpg4win.org/about.html
+- <a href="https://www.gpg4win.org/about.html" target="_blank">About Gpg4win. (n.d.). Retrieved from gpg4win.org</a><br>
 
-- Contributor, C. (2020, December 10). Disadvantages of Public Key Encryption. Retrieved from 
-https://smallbusiness.chron.com/disadvantages-public-key-encryption-68149.html
+- <a href="https://smallbusiness.chron.com/disadvantages-public-key-encryption-68149.html" target="_blank">Contributor, C. (2020, December 10). Disadvantages of Public Key Encryption. Retrieved from smallbusiness.chron.com</a><br>
 
-- Disadvantages of Public Key Encryption. (2020, December 10). Retrieved from https://smallbusiness.chron.com/disadvantages-public-key-encryption-68149.html
+- <a href="https://smallbusiness.chron.com/disadvantages-public-key-encryption-68149.html" target="_blank">Disadvantages of Public Key Encryption. (2020, December 10). Retrieved from smallbusiness.chron.com</a><br>
 
-- Fruhlinger, J. (2020, May 29). What is PKI? And how it secures just about everything online. Retrieved from https://www.csoonline.com/article/3400836/what-is-pki-and-how-it-secures-just-about-everything-online.html
+- <a href="https://www.csoonline.com/article/3400836/what-is-pki-and-how-it-secures-just-about-everything-online.html" target="_blank">Fruhlinger, J. (2020, May 29). What is PKI? And how it secures just about everything online. Retrieved from csoonline.com</a><br>
 
-- Giry, D. (n.d.). NIST Report on Cryptographic Key Length and Cryptoperiod (2020). Retrieved from https://www.keylength.com/en/4/
+- <a href="https://www.keylength.com/en/4/" target="_blank">Giry, D. (n.d.). NIST Report on Cryptographic Key Length and Cryptoperiod (2020). Retrieved from keylength.com</a><br>
 
-- Gloag, D. (n.d.). Retrieved from https://study.com/academy/lesson/what-is-2048-bit-encryption.html
-Lake, J. (2019, October 24). What is RSA encryption and how does it work? Retrieved from https://www.comparitech.com/blog/information-security/rsa-encryption/
+- <a href="https://study.com/academy/lesson/what-is-2048-bit-encryption.html" target="_blank">Gloag, D. (n.d.). Retrieved from study.com</a><br>
 
-- Mutz, M. (2004). The Kleopatra Handbook. Retrieved from https://docs.kde.org/trunk5/en/pim/kleopatra/kleopatra.pdf
+- <a href="https://www.comparitech.com/blog/information-security/rsa-encryption/" target="_blank">Lake, J. (2019, October 24). What is RSA encryption and how does it work? Retrieved from comparitech.com</a><br>
 
-- ReviverSoft. (n.d.). File Extension Search. Retrieved from https://www.reviversoft.com/file-extensions/asc
+- <a href="https://docs.kde.org/trunk5/en/pim/kleopatra/kleopatra.pdf" target="_blank">Mutz, M. (2004). The Kleopatra Handbook. Retrieved from kde.org</a><br>
 
-- Sutiono, M. (2019, July 29). Practical Implementation of Public Key Infrastructure at Cermati. Retrieved from https://medium.com/cermati-tech/practical-implementation-of-public-key-infrastructure-at-cermati-104895d0692b
+- <a href="https://www.reviversoft.com/file-extensions/asc" target="_blank">ReviverSoft. (n.d.). File Extension Search. Retrieved from reviversoft.com</a><br>
+
+- <a href="https://medium.com/cermati-tech/practical-implementation-of-public-key-infrastructure-at-cermati-104895d0692b" target="_blank">Sutiono, M. (2019, July 29). Practical Implementation of Public Key Infrastructure at Cermati. Retrieved from medium.com</a>
+
