@@ -103,119 +103,28 @@ With all things considered, I do believe that public key infrastructure has a pl
 
 # References
 
-(n.d.). Retrieved from https://docs.oracle.com/cd/E19424-01/820-4811/aakfw/index.html
-.GPG File Extension. (2016, October 04). Retrieved from https://fileinfo.com/extension/gpg
-.PGP File Extension. (2009, May 13). Retrieved from https://fileinfo.com/extension/pgp
-About Gpg4win. (n.d.). Retrieved from https://www.gpg4win.org/about.html
-Contributor, C. (2020, December 10). Disadvantages of Public Key Encryption. Retrieved from https://smallbusiness.chron.com/disadvantages-public-key-encryption-68149.html
-Disadvantages of Public Key Encryption. (2020, December 10). Retrieved from https://smallbusiness.chron.com/disadvantages-public-key-encryption-68149.html
-Fruhlinger, J. (2020, May 29). What is PKI? And how it secures just about everything online. Retrieved from https://www.csoonline.com/article/3400836/what-is-pki-and-how-it-secures-just-about-everything-online.html
-Giry, D. (n.d.). NIST Report on Cryptographic Key Length and Cryptoperiod (2020). Retrieved from https://www.keylength.com/en/4/
-Gloag, D. (n.d.). Retrieved from https://study.com/academy/lesson/what-is-2048-bit-encryption.html
+- (n.d.). Retrieved from https://docs.oracle.com/cd/E19424-01/820-4811/aakfw/index.html
+
+- .GPG File Extension. (2016, October 04). Retrieved from https://fileinfo.com/extension/gpg
+
+- .PGP File Extension. (2009, May 13). Retrieved from https://fileinfo.com/extension/pgp
+
+- About Gpg4win. (n.d.). Retrieved from https://www.gpg4win.org/about.html
+
+- Contributor, C. (2020, December 10). Disadvantages of Public Key Encryption. Retrieved from 
+https://smallbusiness.chron.com/disadvantages-public-key-encryption-68149.html
+
+- Disadvantages of Public Key Encryption. (2020, December 10). Retrieved from https://smallbusiness.chron.com/disadvantages-public-key-encryption-68149.html
+
+- Fruhlinger, J. (2020, May 29). What is PKI? And how it secures just about everything online. Retrieved from https://www.csoonline.com/article/3400836/what-is-pki-and-how-it-secures-just-about-everything-online.html
+
+- Giry, D. (n.d.). NIST Report on Cryptographic Key Length and Cryptoperiod (2020). Retrieved from https://www.keylength.com/en/4/
+
+- Gloag, D. (n.d.). Retrieved from https://study.com/academy/lesson/what-is-2048-bit-encryption.html
 Lake, J. (2019, October 24). What is RSA encryption and how does it work? Retrieved from https://www.comparitech.com/blog/information-security/rsa-encryption/
-Mutz, M. (2004). The Kleopatra Handbook. Retrieved from https://docs.kde.org/trunk5/en/pim/kleopatra/kleopatra.pdf
-ReviverSoft. (n.d.). File Extension Search. Retrieved from https://www.reviversoft.com/file-extensions/asc
-Sutiono, M. (2019, July 29). Practical Implementation of Public Key Infrastructure at Cermati. Retrieved from https://medium.com/cermati-tech/practical-implementation-of-public-key-infrastructure-at-cermati-104895d0692b
 
+- Mutz, M. (2004). The Kleopatra Handbook. Retrieved from https://docs.kde.org/trunk5/en/pim/kleopatra/kleopatra.pdf
 
+- ReviverSoft. (n.d.). File Extension Search. Retrieved from https://www.reviversoft.com/file-extensions/asc
 
-### Java Shit
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+- Sutiono, M. (2019, July 29). Practical Implementation of Public Key Infrastructure at Cermati. Retrieved from https://medium.com/cermati-tech/practical-implementation-of-public-key-infrastructure-at-cermati-104895d0692b
