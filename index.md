@@ -17,6 +17,7 @@ Before I can start any work with encryption, I must first set up my workspace. T
 
 Upon running the Gpg4win executable file, the GUI for Kleopatra is opened. As mentioned, this is the certificate manager, and I will be using it for creating and importing key pairs for encryption and decryption. The first step, however, is to create the keys. Rather than having to deal with complex algorithms, Kleopatra has a more simplified process in that it uses a Creation Wizard to automatically generate a key pair given only a few key pieces of information. The user needs only to provide his or her name, an email address, and, if they wish, specifications on the form of encryption and for what purpose(s) it will be used. The figure below shows the creation process for my own key pair:
 
+- <dt>Figure 1</dt>: Here we see the GUI for Kleopatra along with the basic and advanced dialogue windows for creating a new key pair. My name and email are filled out in the first window and the advanced window is filled out according to the lab instructions. This key pair will only be used for encryption (it will not sign or authenticate) and is valid until June 6, 2021.
 ### Java Shit
 ```js
 // Javascript code with syntax highlighting.
