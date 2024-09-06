@@ -64,7 +64,9 @@ This new file has two notable properties: First, my text file has been changed f
 
 - <i>Figure 6</i>: My message after being encrypted. The “begin” and “end” flags have been added by the program. Also note that there is significantly more content in the encrypted message than the original. This message has been scrambled with the RSA algorithm with a 2048-bit key length. It is virtually immune to any brute force attacks.
 
-![Figure6](/assets/fig6.png)
+<p align="center">
+  <img width="585" height="267" src="assets/fig6.png">
+</p>
 
 With this new file obtained, I am now finished with creating and encrypting my message. The next step is to email the encrypted file as an attachment to my professor who, given my public key, will be able to receive and decrypt it on his end. I then set my email up according to the standards given in the directions and sent it to him.
 
