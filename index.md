@@ -34,11 +34,9 @@ Notice that for this lab, I will be using 2048-bit RSA encryption. This bit valu
 
 - <i>Figure 3</i>: The Kleopatra GUI with the “certificates” section active. The key pair I have created is visible in the box and is certified. This means my public and private keys are active and I can now encrypt and decrypt emails and files.
 
-<div align ="center">
-
-![Figure3](/assets/fig3.png)
-
-</div>
+<p align="center">
+  <img width="625" height="374" src="assets/fig3.png">
+</p>
 
 Now here is where the lab really gets interesting. To demonstrate its concepts, I will be sending an encrypted message to my professor. In order to do so, however, we must first exchange public keys. I sent my newly created public key in an email to him and downloaded his public key to my computer and imported it into Kleopatra. When this was done, I also had to certify my professor’s key to prove that he is the owner and verify the certificate’s fingerprint (Mutz). In turn, I can only assume that he has done the same for my public key. With the keys successfully exchanged, I am now ready to create a message for encryption.
 
