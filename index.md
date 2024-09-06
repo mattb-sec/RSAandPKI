@@ -46,7 +46,9 @@ Now for the actual creation of the message I wish to encrypt. I must admit that 
 
 - <i>Figure 4</i>: My original text message as seen in Notepad. Aside from its contents, the only thing to bear in mind here is that I have stuck with using alphabetical characters with only a few special characters for punctuation.
 
-![Figure4](/assets/fig4.png)
+<p align="center">
+  <img width="626" height="62" src="assets/fig4.png">
+</p>
 
 With my message created, I save it in a simple text file and return to Kleopatra to begin the encrypting process. I select the “Sign/Encrypt…” button on the tool panel and open a new dialogue window, shown below:
 
