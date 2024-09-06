@@ -20,7 +20,7 @@ Upon running the Gpg4win executable file, the GUI for Kleopatra is opened. As me
 - <i>Figure 1</i>: Here we see the GUI for Kleopatra along with the basic and advanced dialogue windows for creating a new key pair. My name and email are filled out in the first window and the advanced window is filled out according to the lab instructions. This key pair will only be used for encryption (it will not sign or authenticate) and is valid until June 6, 2021.
 
 <p align="center">
-  <img width="460" height="300" src="assets/fig1.png">
+  <src="assets/fig1.png">
 </p>
 
 
